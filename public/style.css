@@ -1,0 +1,55 @@
+body{
+	margin:0px 0px;
+	
+}
+h1{
+	font-family: 'Slabo 27px', serif;
+	font-weight:100;
+}
+.container{
+	max-width:100%;
+}
+.banner{
+	background-color: #000000;
+	color:#FFFFFF;
+	height:40px;
+	padding-left:20%;
+}
+.bannerText{
+	float:left;
+	clear:left;
+	margin:0px 0px;
+}
+.whiteSpace{
+	background-color: rgba(255, 255, 255, 0);
+	height:5px;
+}
+.nav{ 
+	background-color: #000000;
+	height:20px;
+}
+.logo{
+	float:right;
+	clear:right;
+	padding-right:20%;
+	padding-top:5px;
+	height:30px;
+	width:auto;
+	z-index:1;
+}
+a{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+.Button{
+	padding-left:10%;
+	display:inline;
+	font-family: 'Slabo 27px', serif;
+}
+.back {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    position:fixed;
+}
