@@ -2,7 +2,7 @@ body{
 	margin:0px 0px;
 	
 }
-h1{
+.bannerText{
 	font-family: 'Slabo 27px', serif;
 	font-weight:100;
 }
@@ -52,4 +52,15 @@ a{
     top: 0px;
     z-index: -1;
     position:fixed;
+}
+
+#homeh2{
+	background-color: rgba(115, 115, 115,.5);
+	color: rgb(255,255,255);
+	width: 22%;
+	font-size: .75em;
+	margin-left:57%;
+	margin-top: 26.5%;
+	border-radius: 4px;
+
 }
