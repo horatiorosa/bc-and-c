@@ -20,17 +20,26 @@
 
 		<div class = "nav">
 			<div class = "home Button">
-				<a href="/">HOME</a>
+				<a href="#home">HOME</a>
 			</div>
 			<div class = "about Button">
-				<a href="/about">ABOUT</a>
+				<a href="#about">ABOUT</a>
 			</div>
 			<div class = "services Button">
-				<a href="/services">SERVICES</a>
+				<a href="#services">SERVICES</a>
 			</div>
 			<div class = "contact Button">
-				<a href="/contact">CONTACT</a>
+				<a href="#contact">CONTACT</a>
 			</div>
+		</div>
+		<div class = 'sideNav'>
+			<ul>
+				<li><a href="#home"><img class = "homeIcon" src = 'home.png' width="30" height="auto"></a></li>
+				<li><a class = "aboutIcon" href="#about"><img class = "homeIcon" src = 'about.png' width="30" height="auto"></a></li>
+				<li><a class = "servicesIcon" href="#services"><img class = "homeIcon" src = 'services.png' width="30" height="auto"></a></li>
+				<li><a class = "contactIcon" href="#contact"><img class = "homeIcon" src = 'contact.png' width="30" height="auto"></a></li>
+
+			</ul>
 		</div>
 
 		<section id="home" data-type="background" data-speed="10"> 	
@@ -76,12 +85,36 @@
 	     <article>
 	     		<div class="inner_wrapper">
 		     	<h2>we'll get you there.  the rest is history.</h2>
-	     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem placeat doloremque molestias fugiat perspiciatis quasi, quis mollitia saepe. Ullam sequi ipsa veniam, odit nesciunt blanditiis iusto at quod molestiae.
-	     			</p>
+		     	<form id="contactform" action="/contact" method=POST>	
+	<fieldset>
+		<legend>Personal information:</legend>
+		<div class="formin">
+				<label>First Name:</label>
+				<input type="text" name="firstname"  id="firstname" wrap=virtual>
+		</div>
+		<div class="formin">
+				<label>Last Name:</label>
+				<input type="text" name="lastname" id="lastname" wrap=virtual>
+		</div>
+		<div class="formin">
+		    <label>Email:</label>
+		    <input type="text" name="email" cols="30" wrap=virtual>
+		</div>
+	  <div class="formin">
+	  	<label>Contact Us:</label>
+		    <textarea name="message" id="message" rows="25" cols="60" wrap=virtual>Compliment my site! We need validation</textarea>
+	   </div>
+	   <div class="buttonform">
+	    <input type="submit" value="Send Your Message">
+	   </div>
+  </fieldset>
+</form>
+	     			
 	     		</div>
 	     </article>
-		</section>
 
+		</section>
+		
 		<footer>
 			<div class="footer_sponsors">
 				<img class="sponsor" src="jones.png">

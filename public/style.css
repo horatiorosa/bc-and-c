@@ -44,6 +44,20 @@ header {
 	height:5px;
 
 }
+.sideNav{
+	height:400px;
+	width:100px;
+	top:45%;
+	left:100%;
+	margin-left: -100px;
+	position:fixed;
+	z-index: 10;
+}
+ul li{
+	list-style: none;
+	opacity: .4;
+	padding-bottom: 20px;
+}
 
 .nav{ 
 	background-color: #000000;
@@ -140,6 +154,10 @@ a {
 	color:#FFFFFF;
 }
 
+/*.inner_wrapper h2 {
+	margin-top: 25px;
+	margin-bottom: 15px;
+}*/
 .Button{
 	padding-left:10%;
 	display:inline;
@@ -226,6 +244,69 @@ a {
 	width: 600px;
 }
 
+.contact {
+	width: 650px;
+	padding: 20px;
+	margin: 
+}
+
+#contact{
+	display: inline-block;
+}
+
+#contactform{
+    /* Just to center the form on the page */
+   margin: 0px auto;
+   width: 480px;
+   /* To see the outline of the form */
+   padding: 1em;
+   border: 0px solid #CCC;
+   border-radius: 15px;
+   background-color: rgba(255, 255, 255, .5);
+}
+
+.formin{
+    margin-top: 1em;
+    font-family: 'Slabo 13px', serif;
+
+}
+
+label {
+   /* To make sure that all label have the same size and are properly align */
+   display: inline-block;
+   width: 90px;
+   text-align: center;
+   background-color: rgba(255, 255, 255, .1);
+   border-radius:15px;
+}
+
+fieldset{
+   width: auto;
+   text-align: center;
+   border-radius:15px;
+   font-weight: 800;
+   font-family: 'Slabo 13px', serif;
+}
+
+input, textarea{
+    font: 1em, 'Slabo 13px', serif;
+    border: 1px solid #999;
+    border-radius:5px;
+
+}
+
+input:focus, textarea:focus {
+   /* To highlight on active elements */
+   border-color: #000;
+}
+
+.buttonform {
+    padding: 2em;
+    border: 5em;
+    font:1em, 'Slabo 13px', serif;
+    font-weight: bold;
+}
+
 footer {
 	width: 100%;
 	margin: 0px;
@@ -237,12 +318,6 @@ footer {
   box-shadow: 10px 0px 10px rgba(0,0,0,0.8);
 	position: relative;
 	bottom: 0px;
-}
-
-
-
-#contact{
-	display: inline-block;
 }
 
 
