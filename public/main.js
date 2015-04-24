@@ -1,8 +1,8 @@
 $(document).ready(function(){
-		$alert("works!");
+	// alert("works!");
     $('section[data-type="background"]').each(function(){
         var $bgobj = $(this); // assigning the object
-    
+        // var $window = $(window); 
         $(window).scroll(function() {
             var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
             
@@ -13,8 +13,6 @@ $(document).ready(function(){
             $bgobj.css({ backgroundPosition: coords });
         });  
     });
- 
-
  
 });
 
