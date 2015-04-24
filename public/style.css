@@ -50,7 +50,7 @@ header {
 	height:20px;
 	text-align: right;
 	padding-top: 6px;
-	padding-bottom: 2px;
+	padding-bottom: 4px;
 	padding-right: 5%;
 	opacity: .85;
 	position: relative;
@@ -86,6 +86,34 @@ header {
 	bottom: 10px;
 	right: 60px;
 }
+
+.footer_sponsors {
+	display: block;
+	text-align: center; 
+}
+
+.sponsor {
+		padding-left: 75px;
+		padding-top: 20px;
+		width: 100px;
+		height: 30px;
+}
+
+.sponsor:nth-child(1) {
+	padding-left: 0px;
+	width: 130px;
+}
+
+.jre_div {
+	display: inline-block;
+	text-align: center;
+}
+
+.jre {
+		width: 50px;
+		height: 50px;
+}
+
 
 .container {
 	position: relative;
