@@ -115,38 +115,19 @@ ul li{
 
 .sponsor:nth-child(1) {
 	padding-left: 0px;
-	width: 130px;
+	width: 150px;
 }
-
-.jre_div {
-	display: inline-block;
-	text-align: center;
-}
-
-.jre {
-		width: 50px;
-		height: 50px;
-}
-
 
 .container {
 	position: relative;
 }
 
 #watermark {
-	/*position: fixed;
-	top: 12px;
-	right: 60px;
-	height: 70px;*/
-	opacity: .1;
+	float: left;
+	opacity: .4;
 	z-index: 2;
-	float: right;
-/*	padding-top: 20px;
-	padding-right:5%;*/
-	height: 50px;
-	position: absolute;
-	bottom: 10px;
-	right: 60px
+	padding-left: 35px;
+	height: 100px;
 }
 
 a {
@@ -154,10 +135,6 @@ a {
 	color:#FFFFFF;
 }
 
-/*.inner_wrapper h2 {
-	margin-top: 25px;
-	margin-bottom: 15px;
-}*/
 .Button{
 	padding-left:10%;
 	display:inline;
@@ -244,15 +221,11 @@ a {
 	width: 600px;
 }
 
-.contact {
+/*.contact {
 	width: 650px;
 	padding: 20px;
 	margin: 
-}
-
-#contact{
-	display: inline-block;
-}
+}*/
 
 #contactform{
     /* Just to center the form on the page */
@@ -300,11 +273,9 @@ input:focus, textarea:focus {
    border-color: #000;
 }
 
-.buttonform {
-    padding: 2em;
-    border: 5em;
-    font:1em, 'Slabo 13px', serif;
-    font-weight: bold;
+.submitbutton {
+	border: none;
+	padding-top:  10px;
 }
 
 footer {
@@ -320,4 +291,11 @@ footer {
 	bottom: 0px;
 }
 
+.servicesIcon {
+	padding-right: 5px;
+}
+
+.contactIcon {
+	right: 10px;
+}
 
