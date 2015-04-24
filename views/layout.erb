@@ -2,15 +2,17 @@
 <head>
 	<title>BCNC</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Slabo+13px' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
 </head>
-<body>
-	<div class = "container">
-		<div class = "banner">
-			<img class = "logo" src="bcnc.png">
-			<h1 class = "bannerText">Black Car and Coffee</h1>
-			
-		</div>
+<body> 
+ <div class = "container">
+
+		<header>
+			<img id="watermark" src="../watermark.png">
+			<img class = "logo" src="../logo.png">
+			<h1 class = "bannerText">Black Car and Coffee</h1>	
+		</header>
 		<div class = "whiteSpace">
 		</div>
 		<div class = "nav">
@@ -27,11 +29,60 @@
 				<a href="/contact">CONTACT</a>
 			</div>
 		</div>
-		<div class = "main">
-			<img class = "back" src="01.jpg">
-		</div>
-	</div>
+		<section id="home" data-type="background" data-speed="10"> 
+			
+	     <article>
+	     	<div class="inner_wrapper">
+		     	<h2>we hit the road, so you don't have to.</h2>
+	     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem placeat doloremque molestias fugiat perspiciatis quasi, quis mollitia saepe. Ullam sequi ipsa veniam, odit nesciunt blanditiis iusto at quod molestiae.
+	     			</p>
+	     		</div>
+	     </article>
+    </section>
 
+		<section id="about" data-type="background" data-speed="10">     
+	    <article>
+	    	<div class="inner_wrapper">
+		     	<h2>what we do.</h2>
+	     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem placeat doloremque molestias fugiat perspiciatis quasi, quis mollitia saepe. Ullam sequi ipsa veniam, odit nesciunt blanditiis iusto at quod molestiae.
+	     			</p>
+	     		</div>
+	    </article>
+    </section> 
+
+		<section id="services" data-type="background" data-speed="10">
+	     <article>
+	     		<div class="inner_wrapper">
+		     	<h2>locally sourced. locally made.  eat up the competition.</h2>
+	     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem placeat doloremque molestias fugiat perspiciatis quasi, quis mollitia saepe. Ullam sequi ipsa veniam, odit nesciunt blanditiis iusto at quod molestiae.
+	     			</p>
+	     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem placeat doloremque molestias fugiat perspiciatis quasi, quis mollitia saepe. Ullam sequi ipsa veniam, odit nesciunt blanditiis iusto at quod molestiae.
+	     			</p>
+	     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem placeat doloremque molestias fugiat perspiciatis quasi, quis mollitia saepe. Ullam sequi ipsa veniam, odit nesciunt blanditiis iusto at quod molestiae.
+	     			</p>
+	     		</div>
+	     </article>
+		</section>
+		<section id="contact" data-type="background" data-speed="10">
+	     <article>
+	     		<div class="inner_wrapper">
+		     	<h2>we'll get you there.  the rest is history.</h2>
+	     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem placeat doloremque molestias fugiat perspiciatis quasi, quis mollitia saepe. Ullam sequi ipsa veniam, odit nesciunt blanditiis iusto at quod molestiae.
+	     			</p>
+	     		</div>
+	     </article>
+			
+		</section>
+			<footer>
+				<img class="footer_logo" src="../footer_logo.png">
+			</footer>
+	</div> 
+		<!-- background image with dynamic scrolling: -->
+		<!-- <div class="background">
+			<img src="01.jpg">
+		</div> -->	
 	<%= yield %>
+	<script type="text/javascript" src="../jquery-2.1.3.js"></script>
+	<script type="text/javascript" src="../main.js"></script>
 </body>
 </html>
