@@ -9,10 +9,8 @@
  <div class = "container">
 
 		<header>
-			<img id="watermark" src="../watermark.png">
 			<img class = "left_logo" src="../BCNC-logo.png">
 			<img class = "logo" src="../logo.png">
-			<!-- <h1 class = "bannerText">Black Car &amp Coffee</h1>	 -->
 		</header>
 
 		<div class = "whiteSpace">
@@ -34,10 +32,18 @@
 		</div>
 		<div class = 'sideNav'>
 			<ul>
-				<li><a href="#home"><img class = "homeIcon" src = 'home.png' width="30" height="auto"></a></li>
-				<li><a class = "aboutIcon" href="#about"><img class = "homeIcon" src = 'about.png' width="30" height="auto"></a></li>
-				<li><a class = "servicesIcon" href="#services"><img class = "homeIcon" src = 'services.png' width="30" height="auto"></a></li>
-				<li><a class = "contactIcon" href="#contact"><img class = "homeIcon" src = 'contact.png' width="30" height="auto"></a></li>
+				<li>
+					<a href="#home"><img class = "homeIcon" src = 'home.png' width="30" height="auto"></a>
+				</li>
+				<li>
+					<a href="#about"><img class = "homeIcon" src = 'about.png' width="30" height="auto"></a>
+				</li>
+				<li>
+					<a  href="#services"><img class ="servicesIcon" src = 'services.png' width="35" height="auto"></a>
+				</li>
+				<li>
+					<a  href="#contact"><img class = "contactIcon" src = 'contact.png' width="30" height="auto"></a>
+				</li>
 
 			</ul>
 		</div>
@@ -58,6 +64,11 @@
 		     	<h2>what we do.</h2>
 	     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem placeat doloremque molestias fugiat perspiciatis quasi, quis mollitia saepe. Ullam sequi ipsa veniam, odit nesciunt blanditiis iusto at quod molestiae.
 	     			</p>
+	     			<p><br><br></p>
+	     			<h2>why we do it.</h2>
+	     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem placeat doloremque molestias fugiat perspiciatis quasi, quis mollitia saepe. Ullam sequi ipsa veniam, odit nesciunt blanditiis iusto at quod molestiae.
+	     			</p>
+	     		</div>
 	     		</div>
 	    </article>
     </section> 
@@ -80,13 +91,48 @@
 	     <article>
 	     		<div class="inner_wrapper">
 		     	<h2>we'll get you there.  the rest is history.</h2>
-	     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem placeat doloremque molestias fugiat perspiciatis quasi, quis mollitia saepe. Ullam sequi ipsa veniam, odit nesciunt blanditiis iusto at quod molestiae.
-	     			</p>
-	     		</div>
-	     </article>
-		</section>
+			   <form id="contactform" action="/contact" method=POST>	
 
+			   		
+
+						<fieldset>
+							<legend>Personal information:</legend>
+							<div class="formin">
+								<img id="watermark" src="watermark.png">
+									<label>First Name:</label>
+									<input type="text" name="firstname"  id="firstname" wrap=virtual>
+							</div>
+							<div class="formin">
+									<label>Last Name:</label>
+									<input type="text" name="lastname" id="lastname" wrap=virtual>
+							</div>
+							<div class="formin">
+							    <label>Email:</label>
+							    <input type="text" name="email" cols="30" wrap=virtual>
+							</div>
+						  <div class="formin">
+						  	<label>Contact Us:</label>
+							    <textarea name="message" id="message" rows="25" cols="60" wrap=virtual>Compliment my site! We need validation</textarea>
+						   </div>
+						   <div >
+						   <input class="submitbutton" type="image" src="contactbutton.png" alt="Submit" width="70" height="auto">
+						 </form>
+
+						   </div>
+					  </fieldset>
+					</form>		
+	     	</div>
+	     </article>
+
+		</section>
+		
 		<footer>
+			<div class="footer_sponsors">
+				<img class="sponsor" src="jones.png">
+				<img class="sponsor" src="tesla1.png">
+				<img class="sponsor" src="forbes.png">
+				<img class="sponsor" src="wired.png">
+			</div>
 			<img class="footer_logo" src="../footer_logo.png">
 		</footer>
 	</div> 
