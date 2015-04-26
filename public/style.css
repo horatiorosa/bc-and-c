@@ -55,6 +55,8 @@ header {
 }
 ul li{
 	list-style: none;
+	padding-bottom: 10px;
+	opacity: .4;
 }
 
 .nav{ 
