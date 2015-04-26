@@ -47,7 +47,7 @@ header {
 .sideNav{
 	height:400px;
 	width:100px;
-	top:45%;
+	top:35%;
 	left:100%;
 	margin-left: -100px;
 	position:fixed;
@@ -55,7 +55,7 @@ header {
 }
 ul li{
 	list-style: none;
-	opacity: .4;
+	opacity: .5;
 	padding-bottom: 20px;
 }
 
@@ -92,11 +92,11 @@ ul li{
 }
 
 .footer_logo {
-	float: right;
-/*	padding-top: 20px;
-	padding-right:5%;*/
-	height: 50px;
+	/*float: right;
+	padding-top: 20px;
+	margin-right: 5%;*/
 	position: absolute;
+	height: 50px;
 	bottom: 10px;
 	right: 60px;
 }
@@ -113,9 +113,16 @@ ul li{
 		height: 30px;
 }
 
-.sponsor:nth-child(1) {
-	padding-left: 0px;
+.sponsor:nth-child(2) {
 	width: 150px;
+}
+
+.sponsor:nth-child(1) {
+	width: 200px;
+}
+
+.sponsor:nth-child(5) {
+	padding-right: 12%;
 }
 
 .container {
@@ -124,10 +131,10 @@ ul li{
 
 #watermark {
 	float: left;
-	opacity: .4;
+	opacity: .3;
 	z-index: 2;
 	padding-left: 35px;
-	height: 100px;
+	height: 85px;
 }
 
 a {
@@ -239,9 +246,9 @@ a {
 }
 
 .formin{
-    margin-top: 1em;
-    font-family: 'Slabo 13px', serif;
-
+   margin-top: 1em;
+   font-family: 'Slabo 13px', serif;
+	 opacity: .85;
 }
 
 label {
@@ -278,6 +285,10 @@ input:focus, textarea:focus {
 	padding-top:  10px;
 }
 
+.submitbutton:click {
+	color: white;
+}
+
 footer {
 	width: 100%;
 	margin: 0px;
@@ -298,4 +309,9 @@ footer {
 .contactIcon {
 	right: 10px;
 }
+
+.submitbutton {
+	opacity: .6;
+}
+
 
