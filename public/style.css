@@ -54,6 +54,7 @@ header {
 	margin-left: -100px;
 	position:fixed;
 	z-index: 10;
+
 }
 ul li{
 	list-style: none;
@@ -188,6 +189,7 @@ a {
 
 #services {
   background: url(001.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  /*opacity: .7;*/
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
@@ -244,9 +246,9 @@ a {
 
 
 #hit{
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgba(0, 0, 0, .6);
 	border-radius: 15px;
-
+	
 }
 
 .formin{
@@ -308,10 +310,12 @@ footer {
 
 .servicesIcon {
 	padding-right: 5px;
+
 }
 
 .contactIcon {
 	right: 10px;
+	
 }
 
 .submitbutton {
