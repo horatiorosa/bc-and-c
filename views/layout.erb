@@ -1,0 +1,163 @@
+<html>
+<head>
+	<title>BCNC</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Slabo+13px' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+</head>
+<body> 
+ <div class = "container">
+
+		<header>
+			<img class = "left_logo" src="../BCNC-logo.png">
+			<img class = "logo" src="../logo.png">
+		</header>
+
+		<div class = "whiteSpace">
+		</div>
+
+		<div class = "nav">
+			<div class = "home Button">
+				<a href="#home">HOME</a>
+			</div>
+			<div class = "about Button">
+				<a href="#about">ABOUT</a>
+			</div>
+			<div class = "services Button">
+				<a href="#services">SERVICES</a>
+			</div>
+			<div class = "contact Button">
+				<a href="#contact">CONTACT</a>
+			</div>
+		</div>
+		<div class = 'sideNav'>
+			<ul>
+				<li>
+					<a href="#home"><img class = "homeIcon" src = 'home.png' width="30" height="auto"></a>
+				</li>
+				<li>
+					<a href="#about"><img class = "homeIcon" src = 'about.png' width="30" height="auto"></a>
+				</li>
+				<li>
+					<a  href="#services"><img class ="servicesIcon" src = 'services.png' width="35" height="auto"></a>
+				</li>
+				<li>
+					<a  href="#contact"><img class = "contactIcon" src = 'contact.png' width="30" height="auto"></a>
+				</li>
+
+			</ul>
+		</div>
+
+		<section id="home" data-type="background" data-speed="10"> 	
+	     <article>
+	     	<div class="inner_wrapper">
+		     	<h2>we hit the road, so you don't have to.</h2>
+	     			<p id="hit">
+	     				"Our service is not for everyone. Our coffees are not for everyone. For our exclusive clientele, a car service is more relaxing, tranquil, luxurious than any other, coffees that are more rare, more exclusive, for those that are seeking the ultimate experience.
+	     			</p>
+	     		</div>
+	     </article>
+    </section>
+
+		<section id="about" data-type="background" data-speed="10">     
+	    <article>
+	    	<div class="inner_wrapper">
+		     	<h2>what we do.</h2>
+	     				<p>
+	     					<p id="hit">
+	     							We use the latest technology to serve your needs with elegance and style. 
+	     						</p>
+	     						<p id="hit">
+	     							Our black cars are equipped with secure, encrypted mobile WIFI.
+	     						</p>
+	     						<p id="hit">
+	     							Our drivers, masters of their craft, with unimpeccable safety records, able to get you to where you need to be, on time and in total comfort.
+	     						</p>
+	     				</p>
+	     				<p><br></p>
+	     			<h2>
+	     				why we do it.
+	     			</h2>
+		     			<p id="hit">
+		     				
+		     			</p>
+	     		</div>
+	     		</div>
+	    </article>
+    </section> 
+
+		<section id="services" data-type="background" data-speed="10">
+	     <article>
+	     		<div class="inner_wrapper">
+		     		<h2>
+		     			Complete commitment to providing exceptional service.
+		     		</h2>
+		     			<p id="hit">
+		     				The world's most exclusive roast for your discriminting palate, we offer Kopi Luwak Black Ivory Coffee, direct from our ethical suppliers of hand-gathered civet coffee,from the islands of Java, Bali and Sulawesi in the Indonesian Archipelago.
+		     			</p>
+		     			<p id="hit">
+		     				By day or by night, reliability, relaxation, for every aspect of your corporate or personal travel needs, allowing you to focus on your needs.
+		     			</p>
+		     			<p id="hit">
+		     				Our chauffeurs are carefully screened and then placed in a rigorous training program that emphasizes the safety and discretion of our clients. Rest assured you will receive the highest caliber service with the privacy you deserve.
+		     			</p>
+	     		</div>
+	     </article>
+		</section>
+
+		<section id="contact" data-type="background" data-speed="10">
+	     <article>
+	     		<div class="inner_wrapper">
+		     	<h2>we'll get you there.  the rest is history.</h2>
+			   <form id="contactform" action="/contact" method=POST>	
+
+			   		
+
+						<fieldset>
+							<legend>Personal information:</legend>
+							<div class="formin">
+								<img id="watermark" src="watermark.png">
+									<label>First Name:</label>
+									<input class="fill" type="text" name="firstname"  id="firstname" wrap=virtual>
+							</div>
+							<div class="formin">
+									<label>Last Name:</label>
+									<input class="fill" type="text" name="lastname" id="lastname" wrap=virtual>
+							</div>
+							<div class="formin">
+							    <label>Email:</label>
+							    <input class="fill" type="text" name="email" cols="30" wrap=virtual>
+							</div>
+						  <div class="formin">
+						  	<label>Contact Us:</label>
+							    <textarea name="message" id="message" rows="25" cols="60" wrap=virtual>We gladly welcome your comments and feedback.</textarea>
+						   </div>
+						   <div >
+						   <input class="submitbutton" type="image" src="contactbutton.png" alt="Submit" width="70" height="auto">
+						 </form>
+
+						   </div>
+					  </fieldset>
+					</form>		
+	     	</div>
+	     </article>
+
+		</section>
+		
+		<footer>
+			<div class="footer_sponsors">
+				<img class="sponsor" src="times.png">
+				<img class="sponsor" src="jones.png">
+				<img class="sponsor" src="tesla1.png">
+				<img class="sponsor" src="forbes.png">
+				<img class="sponsor" src="wired.png">
+			</div>
+			<img class="footer_logo" src="../footer_logo.png">
+		</footer>
+	</div> 
+
+	<%= yield %>
+	<script type="text/javascript" src="../jquery-2.1.3.js"></script>
+	<script type="text/javascript" src="../main.js"></script>
+</body>
+</html>
