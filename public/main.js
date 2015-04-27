@@ -24,16 +24,12 @@ function slider() {
 $(window).scroll(function () {
     slider();
 });
-$(".scroll").click(function(event){     
-        event.preventDefault();
-        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-    });
 
 var $root = $('html, body');
 $('a').click(function() {
     $root.animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 1000);
+    }, 700);
     return false;
 });
 });

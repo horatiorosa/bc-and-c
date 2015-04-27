@@ -19,6 +19,8 @@ h2 {
 	/*text-shadow: 1px 1px 0px #ffffff;*/
 	font-size: 1.8em;
 	margin-bottom: 50px;
+	background-color: rgba(255, 255, 255, .5);
+	border-radius: 15px;
 }
 
 p {
@@ -47,15 +49,16 @@ header {
 .sideNav{
 	height:400px;
 	width:100px;
-	top:45%;
+	top:35%;
 	left:100%;
 	margin-left: -100px;
 	position:fixed;
 	z-index: 10;
+
 }
 ul li{
 	list-style: none;
-	opacity: .4;
+	opacity: .5;
 	padding-bottom: 20px;
 }
 
@@ -93,11 +96,11 @@ ul li{
 }
 
 .footer_logo {
-	float: right;
-/*	padding-top: 20px;
-	padding-right:5%;*/
-	height: 50px;
+	/*float: right;
+	padding-top: 20px;
+	margin-right: 5%;*/
 	position: absolute;
+	height: 50px;
 	bottom: 10px;
 	right: 60px;
 }
@@ -114,9 +117,16 @@ ul li{
 		height: 30px;
 }
 
-.sponsor:nth-child(1) {
-	padding-left: 0px;
+.sponsor:nth-child(2) {
 	width: 150px;
+}
+
+.sponsor:nth-child(1) {
+	width: 200px;
+}
+
+.sponsor:nth-child(5) {
+	padding-right: 12%;
 }
 
 .container {
@@ -125,10 +135,10 @@ ul li{
 
 #watermark {
 	float: left;
-	opacity: .4;
+	opacity: .3;
 	z-index: 2;
 	padding-left: 35px;
-	height: 100px;
+	height: 85px;
 }
 
 a {
@@ -178,8 +188,9 @@ a {
   width: 100%; 
 }
 
-#services { 
-  background: url(breakfast.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+#services {
+  background: url(001.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  /*opacity: .7;*/
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
@@ -222,13 +233,8 @@ a {
 	width: 600px;
 }
 
-/*.contact {
-	width: 650px;
-	padding: 20px;
-	margin: 
-}*/
-
 #contactform{
+	font-family: 'Slabo 13px', serif;
     /* Just to center the form on the page */
    margin: 0px auto;
    width: 480px;
@@ -239,10 +245,17 @@ a {
    background-color: rgba(255, 255, 255, .5);
 }
 
-.formin{
-    margin-top: 1em;
-    font-family: 'Slabo 13px', serif;
 
+#hit{
+	background-color: rgba(0, 0, 0, .6);
+	border-radius: 15px;
+	
+}
+
+.formin{
+   margin-top: 1em;
+   font-family: 'Slabo 13px', serif;
+	 opacity: .85;
 }
 
 label {
@@ -279,6 +292,10 @@ input:focus, textarea:focus {
 	padding-top:  10px;
 }
 
+.submitbutton:click {
+	color: white;
+}
+
 footer {
 	width: 100%;
 	margin: 0px;
@@ -294,9 +311,16 @@ footer {
 
 .servicesIcon {
 	padding-right: 5px;
+
 }
 
 .contactIcon {
 	right: 10px;
+	
 }
+
+.submitbutton {
+	opacity: .6;
+}
+
 
