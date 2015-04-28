@@ -19,17 +19,22 @@ h2 {
 	/*text-shadow: 1px 1px 0px #ffffff;*/
 	font-size: 1.8em;
 	margin-bottom: 50px;
-	background-color: rgba(255, 255, 255, .5);
+/*	background-color: rgba(255, 255, 255, .5);*/
 	border-radius: 15px;
 }
 
 p {
 	color: white;
 	font-family: 'Slabo 13px', serif;
-	/*font-family: 'Wire One', sans-serif;*/
-	/*text-shadow: 1px 0px 0px #000000;*/
+	text-shadow: 2px 0px 10px rgba(0, 0, 0, 0.7);
 	font-size: 1.4em;
 	line-height: 1.6em;
+}
+
+
+a {
+	text-decoration: none;
+	color:#FFFFFF;
 }
 
 header { 
@@ -141,10 +146,6 @@ ul li{
 	height: 85px;
 }
 
-a {
-	text-decoration: none;
-	color:#FFFFFF;
-}
 
 .Button{
 	padding-left:10%;
@@ -189,7 +190,7 @@ a {
 }
 
 #services {
-  background: url(001.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  background: url(breakfast.jpg) 50% 0 repeat fixed; min-height: 1000px; 
   /*opacity: .7;*/
   height: 1000px; 
   margin: 0 auto; 
@@ -245,12 +246,12 @@ a {
    background-color: rgba(255, 255, 255, .5);
 }
 
-
+/*
 #hit{
 	background-color: rgba(0, 0, 0, .6);
 	border-radius: 15px;
 	
-}
+}*/
 
 .formin{
    margin-top: 1em;
@@ -323,4 +324,13 @@ footer {
 	opacity: .6;
 }
 
+.menu {
+	display: inline-block;
+	text-align: center;
+	height: 80px;
+	width: auto;
+}
 
+.menu:hover {
+	opacity: .6;
+}
