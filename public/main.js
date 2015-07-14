@@ -15,23 +15,25 @@ $(document).ready(function(){
             $bgobj.css({ backgroundPosition: coords });
         });  
     });
-function slider() {
-    if (document.body.scrollTop > 120) //Show the slider after scrolling down 100px
-        $('.sideNav').stop().animate({"margin-left": '-100'});
-    else
-        $('.sideNav').stop().animate({"margin-left": '0'}); //200 matches the width of the slider
-}
-$(window).scroll(function () {
-    slider();
-});
+    
+    function slider() {
+        if (document.body.scrollTop > 120) //Show the slider after scrolling down 100px
+            $('.sideNav').stop().animate({"margin-left": '-100'});
+        else
+            $('.sideNav').stop().animate({"margin-left": '0'}); //200 matches the width of the slider
+    }
 
-var $root = $('html, body');
-$('a').click(function() {
-    $root.animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 700);
-    return false;
-});
+    $(window).scroll(function () {
+        slider();
+    });
+
+    var $root = $('html, body');
+    $('a').click(function() {
+        $root.animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 700);
+        return false;
+    });
 });
 
 
