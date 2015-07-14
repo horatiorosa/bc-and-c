@@ -17,11 +17,13 @@ $(document).ready(function(){
     });
     
     function slider() {
-        if (document.body.scrollTop > 120) //Show the slider after scrolling down 100px
+        if (document.body.scrollTop > 120) {//Show the slider after scrolling down 100px
             $('.sideNav').stop().animate({"margin-left": '-100'});
-        else
+       } else{
             $('.sideNav').stop().animate({"margin-left": '0'}); //200 matches the width of the slider
+        }
     }
+
 
     $(window).scroll(function () {
         slider();

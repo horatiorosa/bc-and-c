@@ -154,7 +154,7 @@ ul li{
 }
 
 #home { 
-  background: url(gloves2.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  background: url(../gloves2.jpg) 50% 0 repeat fixed; min-height: 1000px; 
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
@@ -171,7 +171,7 @@ ul li{
 }
  
 #about { 
-  background: url(coffeecup.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  background: url(../coffeecup.jpg) 50% 0 repeat fixed; min-height: 1000px; 
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
@@ -190,7 +190,7 @@ ul li{
 }
 
 #services {
-  background: url(breakfast.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  background: url(../breakfast.jpg) 50% 0 repeat fixed; min-height: 1000px; 
   /*opacity: .7;*/
   height: 1000px; 
   margin: 0 auto; 
@@ -210,7 +210,7 @@ ul li{
 }
 
 #contact { 
-  background: url(uber.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  background: url(../uber.jpg) 50% 0 repeat fixed; min-height: 1000px; 
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
