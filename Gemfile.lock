@@ -1,25 +1,29 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    excon (0.45.4)
-    faraday (0.9.1)
+    excon (0.76.0)
+    faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
     geolocater (0.1.0)
       faraday
       json
-    json (1.8.3)
+    json (1.8.6)
     mandrill-api (1.0.53)
       excon (>= 0.16.0, < 1.0)
       json (>= 1.7.7, < 2.0)
-    multipart-post (2.0.0)
-    rack (1.6.4)
-    rack-protection (1.5.3)
+    multipart-post (2.1.1)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.2.3)
+    rack-protection (2.0.8.1)
       rack
-    sinatra (1.4.6)
-      rack (~> 1.4)
-      rack-protection (~> 1.4)
-      tilt (>= 1.3, < 3)
-    tilt (2.0.1)
+    ruby2_keywords (0.0.2)
+    sinatra (2.0.8.1)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.8.1)
+      tilt (~> 2.0)
+    tilt (2.0.10)
 
 PLATFORMS
   ruby
@@ -29,5 +33,8 @@ DEPENDENCIES
   mandrill-api
   sinatra
 
+RUBY VERSION
+   ruby 2.4.5p335
+
 BUNDLED WITH
-   1.10.6
+   2.1.4
