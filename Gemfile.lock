@@ -29,8 +29,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  excon (>= 0.71.0)
   geolocater
+  json (>= 1.8.6)
   mandrill-api
+  rack (>= 2.1.4)
+  rack-protection (>= 1.5.5)
   sinatra
 
 RUBY VERSION
